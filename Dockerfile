@@ -3,7 +3,7 @@ MAINTAINER Matías Aguirre <matiasaguirre@gmail.com>
 
 ENV PYENV_ROOT $HOME/.pyenv
 ENV PATH $HOME/.pyenv/shims:$HOME/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-ENV PYTHON_VERSIONS 2.7.13 3.3.6 3.4.5 3.5.2 3.6.0 pypy-5.6.0
+ENV PYTHON_VERSIONS 2.7.16 3.3.7 3.4.10 3.5.7 3.6.8 3.7.3 pypy-5.6.0
 
 RUN apt-get update && \
     apt-get install -y make git build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
